@@ -29,6 +29,7 @@
     "@dnd-kit/utilities": "^3.2.2",
     "@headlessui/react": "^2.2.4",
     "@heroicons/react": "^2.2.0",
+    "@splinetool/runtime": "^2.0.118",
     "@upstash/redis": "^1.25.0",
     "@vidstack/react": "^1.12.13",
     "artplayer": "^5.2.3",
@@ -47,6 +48,7 @@
     "sweetalert2": "^11.11.0",
     "swiper": "^11.2.8",
     "tailwind-merge": "^2.6.0",
+    "three": "^0.160.0",
     "vidstack": "^0.6.15",
     "zod": "^3.24.1"
   },
@@ -61,6 +63,7 @@
     "@types/react": "^18.3.18",
     "@types/react-dom": "^19.1.6",
     "@types/testing-library__jest-dom": "^5.14.9",
+    "@types/three": "^0.160.0",
     "@typescript-eslint/eslint-plugin": "^5.62.0",
     "@typescript-eslint/parser": "^5.62.0",
     "autoprefixer": "^10.4.20",
