@@ -2,7 +2,7 @@
 
 'use client';
 
-import { Clover, Film, Home, Search, Star, Tv } from 'lucide-react';
+import { Clover, Film, Gamepad2, Home, Search, Star, Tv } from 'lucide-react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
@@ -37,6 +37,11 @@ const MobileBottomNav = ({ activePath }: MobileBottomNavProps) => {
       icon: Clover,
       label: '综艺',
       href: '/douban?type=show',
+    },
+    {
+      icon: Gamepad2,
+      label: '挖土机',
+      href: '/game/excavator',
     },
   ]);
 
